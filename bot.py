@@ -3,7 +3,7 @@ import requests
 import os
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.getenv("sk-or-v1-1dd44f0d7638726a104feb8")
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
